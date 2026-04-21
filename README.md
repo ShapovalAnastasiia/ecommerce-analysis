@@ -1,17 +1,18 @@
 # ecommerce-analysis
-E-commerce data analysis project using Google Sheets and BigQuery
+
 # 📊 E-commerce Analysis (Google Sheets & BigQuery)
 
 ## Overview
 This project analyzes e-commerce transactional data to identify key revenue drivers, customer behavior patterns, and product performance.
+
 The analysis combines data cleaning, SQL-based exploration, KPI calculation, and an interactive dashboard.
 
 ## Context
 The objective of this project was to explore transactional data (600 orders) and answer key business questions:
-How does revenue change over time?
-Which product categories generate the most revenue?
-Which markets and customer segments are the most valuable?
-What insights can support business growth and strategy?
+- How does revenue change over time?
+- Which product categories generate the most revenue?
+- Which markets and customer segments are the most valuable?
+- What insights can support business growth and strategy?
 
 ## Data
 Dataset: E-commerce transactions
@@ -50,18 +51,19 @@ Data preparation included:
 📌 All queries are available in queries.sql
 
 4. Data Visualization (Dashboard)
-- Built an interactive dashboard in Google Sheets:
+
+Built an interactive dashboard in Google Sheets:
   - Monthly revenue dynamics
   - Top categories by revenue
   - Revenue and orders by country
   - Device distribution
 
 ## Results
-Total Revenue: $6,604,338
+*Total Revenue*: $6,604,338
 
-Total Orders: 600
+*Total Orders*: 600
 
-Average Order Value (AOV): $11,007
+*Average Order Value (AOV)*: $11,007
 
 Key insights:
 
@@ -71,9 +73,9 @@ Key insights:
 - Device usage is evenly distributed (~33% per device), indicating strong multi-channel engagement
 
 ## Dashboard Preview
-View Dashboard: (https://docs.google.com/spreadsheets/d/1oPjqZkJqP0049X0zswda4GMAv8w_3GFXXflEqJ4R7oE/edit?usp=sharing)
+🔗 (https://docs.google.com/spreadsheets/d/1oPjqZkJqP0049X0zswda4GMAv8w_3GFXXflEqJ4R7oE/edit?usp=sharing)
 
-Screenshot: ![Dashboard](dashboard.png)
+Preview: ![Dashboard](dashboard.png)
 
 ## Skills Demonstrated
 SQL • Data Analysis • KPI Analysis • Data Cleaning • Data Visualization • Business Thinking
