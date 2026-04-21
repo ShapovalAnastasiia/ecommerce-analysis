@@ -1,66 +1,79 @@
-# ecommerce-revenue-analysis
+# ecommerce-analysis
 E-commerce data analysis project using Google Sheets and BigQuery
-# 📊 E-commerce Revenue Analysis
+# 📊 E-commerce Analysis (Google Sheets & BigQuery)
 
-## Project Overview
-This project analysis e-commerce, focusing on revenue drivers, customer behavior, and product performance using SQL and Google Sheets.
+## Overview
+This project analyzes e-commerce transactional data to identify key revenue drivers, customer behavior patterns, and product performance.
+The analysis combines data cleaning, SQL-based exploration, KPI calculation, and an interactive dashboard.
 
----
+## Context
+The objective of this project was to explore transactional data (600 orders) and answer key business questions:
+How does revenue change over time?
+Which product categories generate the most revenue?
+Which markets and customer segments are the most valuable?
+What insights can support business growth and strategy?
 
-## Objectives
-- Analyze revenue trends over time and identify seasonal patterns
-- Identify top-performing product categories
-- Evaluate customer distribution by country and device type
-- Calculate core business KPIs:
-  - Total Revenue
-  - Total Orders
-  - Average Order Value (AOV)
-- Provide data-driven insights to support business strategy
+## Data
+Dataset: E-commerce transactions
 
----
+Size: 600 orders
 
-## Tools
-- Google Sheets (EDA & Dashboard)
-- BigQuery (SQL Analysis)
+Key fields:
+  - Order Date
+  - Revenue
+  - Product Category
+  - Country
+  - Device Type
 
----
+Data preparation included:
+- Fixing data types (dates, numeric values)
+- Handling missing values
+- Removing inconsistencies
+
+## Process
+1. Data Cleaning (Google Sheets)
+- Standardized formats for dates and revenue
+- Validated dataset consistency
+- Prepared clean dataset for analysis
+2. Exploratory Data Analysis (EDA)
+- Analyzed revenue distribution and trends
+- Identified seasonal patterns
+- Explored category and country performance
+3. SQL Analysis (BigQuery)
+- Used aggregations and GROUP BY
+- Built queries for:
+  - Revenue trends (time series)
+  - AOV calculation
+  - Revenue by category and country
+  - Customer segmentation
+
+📌 All queries are available in queries.sql
+
+4. Data Visualization (Dashboard)
+- Built an interactive dashboard in Google Sheets:
+  - Monthly revenue dynamics
+  - Top categories by revenue
+  - Revenue and orders by country
+  - Device distribution
+
+## Results
+Total Revenue: $6,604,338
+
+Total Orders: 600
+
+Average Order Value (AOV): $11,007
+
+Key insights:
+
+- Revenue shows a steady upward trend with a strong seasonal peak in December
+- Top-performing categories: Books, Toys, Home
+- Highest revenue markets: USA, Germany, India
+- Device usage is evenly distributed (~33% per device), indicating strong multi-channel engagement
 
 ## Dashboard Preview
-Dashboard link: (https://docs.google.com/spreadsheets/d/1oPjqZkJqP0049X0zswda4GMAv8w_3GFXXflEqJ4R7oE/edit?usp=sharing)
+View Dashboard: (https://docs.google.com/spreadsheets/d/1oPjqZkJqP0049X0zswda4GMAv8w_3GFXXflEqJ4R7oE/edit?usp=sharing)
 
 Screenshot: ![Dashboard](dashboard.png)
 
----
-
-## Key Insights
-- Total revenue reached $6.6M
-- Revenue shows a steady growth trend with strong seasonal peaks in December
-- Top performing product categories: Books, Toys, Home
-- Strongest markets: USA, Germany, India
-- Customer device usage is well balanced (~33% per device type)
-
----
-
-## SQL Analysis
-This project includes SQL queries covering:
-- Revenue trend analysis (time series)
-- Average Order Value (AOV) calculation
-- Revenue breakdown by product category and country
-- Customer behavior segmentation
-- Delivery performance analysis
-
-All SQL queries are available in the `queries.sql` file.
-
----
-
-## Business Impact
-This analysis enables stakeholders to:
-- Track revenue performance over time
-- Identify high-value product categories and markets
-- Understand customer behavior across segments
-- Support strategic decisions with data insights
-
----
-
 ## Skills Demonstrated
-SQL • BigQuery • Google Sheets • Data Analysis • KPI Analysis • Data Visualization • Business Insights
+SQL • Data Analysis • KPI Analysis • Data Cleaning • Data Visualization • Business Thinking
