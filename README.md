@@ -1,6 +1,6 @@
 # ecommerce-analysis
 
-# 📊 E-commerce Analysis (Google Sheets & BigQuery)
+# 📊 E-commerce Sales Performance Analysis (Google Sheets & BigQuery)
 
 ## Overview
 This project analyzes e-commerce transactional data to identify key revenue drivers, customer behavior patterns, and product performance.
